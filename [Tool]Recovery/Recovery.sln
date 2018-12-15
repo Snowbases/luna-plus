@@ -1,0 +1,56 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "server\server.vcproj", "{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcproj", "{E9F89806-BDDD-42E1-913F-DD75A82EFA09}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = [Tool]Recovery\\
+		SolutionUniqueID = {E1C94A44-C019-42E6-8E39-EC5B544CAA6A}
+		SccProjectUniqueName1 = client\\client.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = [Tool]Recovery\\client\\
+		SccProjectUniqueName2 = server\\server.vcproj
+		SccLocalPath2 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection2 = [Tool]Recovery\\server\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		Release.English = Release.English
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.Debug.ActiveCfg = Debug|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.Debug.Build.0 = Debug|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.Release.ActiveCfg = Release|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.Release.Build.0 = Release|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.Release.English.ActiveCfg = Release|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.Release.English.Build.0 = Release|Win32
+		{E9F89806-BDDD-42E1-913F-DD75A82EFA09}.Debug.ActiveCfg = Debug|Win32
+		{E9F89806-BDDD-42E1-913F-DD75A82EFA09}.Debug.Build.0 = Debug|Win32
+		{E9F89806-BDDD-42E1-913F-DD75A82EFA09}.Release.ActiveCfg = Release|Win32
+		{E9F89806-BDDD-42E1-913F-DD75A82EFA09}.Release.Build.0 = Release|Win32
+		{E9F89806-BDDD-42E1-913F-DD75A82EFA09}.Release.English.ActiveCfg = Release.English|Win32
+		{E9F89806-BDDD-42E1-913F-DD75A82EFA09}.Release.English.Build.0 = Release.English|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

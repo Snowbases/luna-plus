@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4DyuchiGXFileExtractor", "4DyuchiGXFileExtractor.vcproj", "{B97A4498-C42D-4F3C-8693-CB1751F5AD8F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = 4DYUCHIGXFILEEXTRACTOR\\
+		SolutionUniqueID = {8F606848-884E-41DA-BD0A-841F3B53099C}
+		SccProjectUniqueName1 = 4DyuchiGXFileExtractor.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = 4DYUCHIGXFILEEXTRACTOR\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B97A4498-C42D-4F3C-8693-CB1751F5AD8F}.Debug.ActiveCfg = Debug|Win32
+		{B97A4498-C42D-4F3C-8693-CB1751F5AD8F}.Debug.Build.0 = Debug|Win32
+		{B97A4498-C42D-4F3C-8693-CB1751F5AD8F}.Release.ActiveCfg = Release|Win32
+		{B97A4498-C42D-4F3C-8693-CB1751F5AD8F}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

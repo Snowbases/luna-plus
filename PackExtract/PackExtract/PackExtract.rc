@@ -1,0 +1,263 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\PackExtract.rc2""  // Microsoft Visual C++에서 편집되지 않은 리소스\r\n"
+    "#include ""afxres.rc""         // 표준 구성 요소\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\PackExtract.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 371, 254
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "PackExtract 정보"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "PackExtract Version 2.5",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    DEFPUSHBUTTON   "확인",IDOK,314,231,50,16,WS_GROUP
+    LTEXT           "압축해제 : 폴더 지정시 해당 폴더내에서 pak 파일을 찾아 압축해제 작업을 할 수 있도록 합니다.\n압    축 : 폴더 지정시 해당 폴더내에서 하위 폴더들을 항목으로 추출하여 압축 작업을 할 수 있도록 합니다.\n\n",
+                    IDC_STATIC,39,26,325,28
+    LTEXT           "선택항목 개별 압축해제/제거 : 압축해제 모드에서 항목을 선택후 pak파일내에서 특정 파일을 압축해제하거나 제거 할 수 있습니다.\n선택항목 제거 : 선택된 항목에서 선택 후 클릭시 항목에서 제거되도록 합니다.\n원본 제거 : 압축해제 모드에서 선택시 압축해제시 관련 폴더의 내용을 비우고 해제를 시도합니다.\n            압축 모드에서 선택시 압축 후 원본을 제거합니다.\n\n\n",
+                    IDC_STATIC,39,56,325,47
+    LTEXT           "만든이 : 개발3팀 신진섭\nE-Mail : side1024@eyainteractive.com",
+                    IDC_STATIC,40,199,324,23
+    LTEXT           "추가기능\n      아무 파일이나 Drag시 파일위치로 경로가 지정됩니다.\n      파일/폴더 Drag시 파일/폴더 위치로 경로가 지정되고 해당 파일/폴더가 항목에 추가됩니다.\n      파일/폴더 Drag시 선택파일에 따라 파일인경우 압축해제모드로 폴더인경우 압축 모드로 설정됩니다.\n      Pak파일 실행파일로 지정후 더블클릭시 List에 자동추가됩니다.",
+                    IDC_STATIC,37,111,327,43
+END
+
+IDD_PACKEXTRACT_DIALOG DIALOGEX 0, 0, 279, 280
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+CAPTION "PackExtract"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "종  료",IDOK,222,257,50,16
+    PUSHBUTTON      "실  행",ID_EXTRACT_PACKFILE_BUTTON,222,230,50,14
+    CONTROL         "",IDC_PROGRESS_LIST,"msctls_progress32",WS_BORDER,22,
+                    230,187,14
+    CONTROL         "",IDC_PROGRESS_PACK,"msctls_progress32",WS_BORDER,22,
+                    259,186,14
+    LISTBOX         IDC_PACK_LIST,22,126,186,87,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "선택항목 제거(&D)",ID_DELETE_PACKFILE_BUTTON,214,164,58,
+                    14
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,22,17,186,95
+    LTEXT           "전체 진행 상황",IDC_STATIC,23,221,47,8
+    LTEXT           "압축/해제 진행상황",IDC_STATIC,23,250,61,8
+    LTEXT           "선택된 항목",IDC_STATIC,23,117,38,8
+    LTEXT           "해제/압축 폴더 위치",IDC_STATIC,22,8,63,8
+    GROUPBOX        "설정",IDC_STATIC,214,13,58,53
+    CONTROL         "압축해제",IDC_MODE_EXTRACT_RADIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,220,28,45,11
+    CONTROL         "압      축",IDC_MODE_COMPRESS_RADIO,"Button",
+                    BS_AUTORADIOBUTTON,220,46,40,11
+    CONTROL         "원본 제거",IDC_DELETE_AFTER_PROC_CHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,215,189,51,
+                    10
+    PUSHBUTTON      "선택항목 개별 \n압축해제/제거",
+                    IDC_EXTRACT_FILENAME_BUTTON1,214,126,58,31,BS_MULTILINE
+    PUSHBUTTON      "도움말",IDC_HELP_BUTTON,215,83,57,14
+END
+
+IDD_EXTRACT_SELECTED_DLG DIALOGEX 0, 0, 234, 266
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Extract",IDOK,164,7,50,14
+    PUSHBUTTON      "Quit",IDCANCEL,164,61,50,14
+    LISTBOX         IDC_FILELIST,7,7,152,244,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    LBS_EXTENDEDSEL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    CONTROL         "Clear Directory",IDC_CLEAR_DIR_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,164,82,63,10
+    PUSHBUTTON      "Delete",IDC_DELTE_BUTTON,164,29,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "CompanyName", "TODO: <회사 이름>"
+            VALUE "FileDescription", "TODO: <파일 설명>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "PackExtract.exe"
+            VALUE "LegalCopyright", "TODO: (c) <회사 이름>.  All rights reserved."
+            VALUE "OriginalFilename", "PackExtract.exe"
+            VALUE "ProductName", "TODO: <제품 이름>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "변환", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 364
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 247
+    END
+
+    IDD_PACKEXTRACT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 273
+    END
+
+    IDD_EXTRACT_SELECTED_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 259
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+IDR_HTML_EXTRACTSELECTEDDLG HTML                    "ExtractSelectedDlg.htm"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "PackExtract 정보(&A)..."
+END
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\PackExtract.rc2"  // Microsoft Visual C++에서 편집되지 않은 리소스
+#include "afxres.rc"         // 표준 구성 요소
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

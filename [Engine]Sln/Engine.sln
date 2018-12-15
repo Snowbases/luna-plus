@@ -1,0 +1,215 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4DyuchiGX_Render", "..\4DYUCHIGX_RENDER\4DyuchiGX_Render.vcproj", "{4A2087EA-B9EF-4A19-8C41-146899F930FC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB} = {3CB21855-C22C-4083-8DDB-062094CCCFCB}
+		{6676B299-B790-46FF-834D-4959DA1223C2} = {6676B299-B790-46FF-834D-4959DA1223C2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4DyuchiGXExecutive", "..\4DYUCHIGXEXECUTIVE\4DyuchiGXExecutive.vcproj", "{063298EC-0544-4DA3-904E-90E172DDC9F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23} = {1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4DyuchiGXGeometry", "..\4DyuchiGXGeometry\4DyuchiGXGeometry.vcproj", "{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC} = {4A2087EA-B9EF-4A19-8C41-146899F930FC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4DyuchiGXGFunc", "..\4DyuchiGXGFunc\4DyuchiGXGFunc.vcproj", "{3CB21855-C22C-4083-8DDB-062094CCCFCB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4DyuchiFileStorage", "..\4DyuchiFileStorage\4DyuchiFileStorage.vcproj", "{6676B299-B790-46FF-834D-4959DA1223C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB} = {3CB21855-C22C-4083-8DDB-062094CCCFCB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LUNA Client", "..\[Client]LUNA\LUNA Client.vcproj", "{11C374EF-B577-491C-9E45-A6DC10AE142D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{063298EC-0544-4DA3-904E-90E172DDC9F7} = {063298EC-0544-4DA3-904E-90E172DDC9F7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelView", "..\ModelView\ModelView.vcproj", "{1BD5925A-6D7C-4646-AC13-58B5FE678D16}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6676B299-B790-46FF-834D-4959DA1223C2} = {6676B299-B790-46FF-834D-4959DA1223C2}
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23} = {1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC} = {4A2087EA-B9EF-4A19-8C41-146899F930FC}
+		{063298EC-0544-4DA3-904E-90E172DDC9F7} = {063298EC-0544-4DA3-904E-90E172DDC9F7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 8
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = [Engine]Sln\\
+		SolutionUniqueID = {081C591A-61B5-4CBC-9A5A-742D6AB3DB33}
+		SccProjectUniqueName1 = ..\\4DyuchiFileStorage\\4DyuchiFileStorage.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = 4DyuchiFileStorage\\
+		SccProjectUniqueName2 = ..\\4DYUCHIGX_RENDER\\4DyuchiGX_Render.vcproj
+		SccLocalPath2 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection2 = 4DYUCHIGX_RENDER\\
+		SccProjectUniqueName3 = ..\\4DYUCHIGXEXECUTIVE\\4DyuchiGXExecutive.vcproj
+		SccLocalPath3 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection3 = 4DYUCHIGXEXECUTIVE\\
+		SccProjectUniqueName4 = ..\\4DyuchiGXGeometry\\4DyuchiGXGeometry.vcproj
+		SccLocalPath4 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection4 = 4DyuchiGXGeometry\\
+		SccProjectUniqueName5 = ..\\4DyuchiGXGFunc\\4DyuchiGXGFunc.vcproj
+		SccLocalPath5 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection5 = 4DyuchiGXGFunc\\
+		SccProjectUniqueName6 = ..\\[Client]LUNA\\LUNA\u0020Client.vcproj
+		SccLocalPath6 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection6 = [Client]LUNA\\
+		SccProjectUniqueName7 = ..\\ModelView\\ModelView.vcproj
+		SccLocalPath7 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection7 = ModelView\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug GM_TOOL = Debug GM_TOOL
+		Debug TestClient = Debug TestClient
+		for_SSE_Debug = for_SSE_Debug
+		for_SSE_Release = for_SSE_Release
+		Release = Release
+		Release GM_TOOL = Release GM_TOOL
+		Release TestClient = Release TestClient
+		Semi Release = Semi Release
+		Test = Test
+		TL Debug GM_TOOL = TL Debug GM_TOOL
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.Debug.ActiveCfg = Release|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.Debug GM_TOOL.ActiveCfg = Debug|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.Debug TestClient.ActiveCfg = Debug|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.Debug TestClient.Build.0 = Debug|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.for_SSE_Debug.ActiveCfg = Debug|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.for_SSE_Release.ActiveCfg = Release|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.Release.ActiveCfg = Release|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.Release GM_TOOL.ActiveCfg = Release|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.Release TestClient.ActiveCfg = Release|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.Release TestClient.Build.0 = Release|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.Semi Release.ActiveCfg = Release|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.Semi Release.Build.0 = Release|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.Test.ActiveCfg = Release|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.Test.Build.0 = Release|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.TL Debug GM_TOOL.ActiveCfg = Debug|Win32
+		{4A2087EA-B9EF-4A19-8C41-146899F930FC}.TL Debug GM_TOOL.Build.0 = Debug|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.Debug.ActiveCfg = Release|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.Debug GM_TOOL.ActiveCfg = Debug|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.Debug TestClient.ActiveCfg = Debug|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.Debug TestClient.Build.0 = Debug|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.for_SSE_Debug.ActiveCfg = Debug|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.for_SSE_Release.ActiveCfg = Release|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.Release.ActiveCfg = Release|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.Release GM_TOOL.ActiveCfg = Release|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.Release TestClient.ActiveCfg = Release|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.Release TestClient.Build.0 = Release|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.Semi Release.ActiveCfg = Release|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.Semi Release.Build.0 = Release|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.Test.ActiveCfg = Release|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.Test.Build.0 = Release|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.TL Debug GM_TOOL.ActiveCfg = Debug|Win32
+		{063298EC-0544-4DA3-904E-90E172DDC9F7}.TL Debug GM_TOOL.Build.0 = Debug|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.Debug.ActiveCfg = Release|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.Debug GM_TOOL.ActiveCfg = Debug|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.Debug TestClient.ActiveCfg = Debug|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.Debug TestClient.Build.0 = Debug|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.for_SSE_Debug.ActiveCfg = Debug|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.for_SSE_Release.ActiveCfg = Release|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.Release.ActiveCfg = Release|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.Release GM_TOOL.ActiveCfg = Release|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.Release TestClient.ActiveCfg = Release|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.Release TestClient.Build.0 = Release|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.Semi Release.ActiveCfg = Release|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.Semi Release.Build.0 = Release|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.Test.ActiveCfg = Release|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.Test.Build.0 = Release|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.TL Debug GM_TOOL.ActiveCfg = Debug|Win32
+		{1A1AFBDD-C585-411B-8A7C-B7FDB802BD23}.TL Debug GM_TOOL.Build.0 = Debug|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.Debug.ActiveCfg = Release|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.Debug GM_TOOL.ActiveCfg = Debug|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.Debug TestClient.ActiveCfg = Debug|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.Debug TestClient.Build.0 = Debug|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.for_SSE_Debug.ActiveCfg = for_SSE_Debug|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.for_SSE_Debug.Build.0 = for_SSE_Debug|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.for_SSE_Release.ActiveCfg = for_SSE_Release|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.for_SSE_Release.Build.0 = for_SSE_Release|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.Release.ActiveCfg = Release|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.Release GM_TOOL.ActiveCfg = Release|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.Release TestClient.ActiveCfg = Release|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.Release TestClient.Build.0 = Release|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.Semi Release.ActiveCfg = Release|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.Semi Release.Build.0 = Release|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.Test.ActiveCfg = for_SSE_Debug|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.Test.Build.0 = for_SSE_Debug|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.TL Debug GM_TOOL.ActiveCfg = Debug|Win32
+		{3CB21855-C22C-4083-8DDB-062094CCCFCB}.TL Debug GM_TOOL.Build.0 = Debug|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.Debug.ActiveCfg = Release|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.Debug GM_TOOL.ActiveCfg = Debug|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.Debug TestClient.ActiveCfg = Debug|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.Debug TestClient.Build.0 = Debug|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.for_SSE_Debug.ActiveCfg = Debug|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.for_SSE_Release.ActiveCfg = Release|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.Release.ActiveCfg = Release|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.Release GM_TOOL.ActiveCfg = Release|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.Release TestClient.ActiveCfg = Release|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.Release TestClient.Build.0 = Release|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.Semi Release.ActiveCfg = Release|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.Semi Release.Build.0 = Release|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.Test.ActiveCfg = Release|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.Test.Build.0 = Release|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.TL Debug GM_TOOL.ActiveCfg = Debug|Win32
+		{6676B299-B790-46FF-834D-4959DA1223C2}.TL Debug GM_TOOL.Build.0 = Debug|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug.ActiveCfg = Debug|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug.Build.0 = Debug|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug GM_TOOL.ActiveCfg = Debug GM_TOOL|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug GM_TOOL.Build.0 = Debug GM_TOOL|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug TestClient.ActiveCfg = Debug TestClient|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug TestClient.Build.0 = Debug TestClient|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.for_SSE_Debug.ActiveCfg = Debug|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.for_SSE_Release.ActiveCfg = Release|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Release.ActiveCfg = Release|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Release.Build.0 = Release|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Release GM_TOOL.ActiveCfg = Release GM_TOOL|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Release GM_TOOL.Build.0 = Release GM_TOOL|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Release TestClient.ActiveCfg = Release TestClient|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Release TestClient.Build.0 = Release TestClient|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Semi Release.ActiveCfg = Semi Release|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Semi Release.Build.0 = Semi Release|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Test.ActiveCfg = Test|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Test.Build.0 = Test|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.TL Debug GM_TOOL.ActiveCfg = TL Debug GM_TOOL|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.TL Debug GM_TOOL.Build.0 = TL Debug GM_TOOL|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.Debug.ActiveCfg = Debug|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.Debug.Build.0 = Debug|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.Debug GM_TOOL.ActiveCfg = Debug|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.Debug TestClient.ActiveCfg = Debug|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.for_SSE_Debug.ActiveCfg = Debug|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.for_SSE_Release.ActiveCfg = Release|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.Release.ActiveCfg = Release|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.Release.Build.0 = Release|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.Release GM_TOOL.ActiveCfg = Release|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.Release TestClient.ActiveCfg = Release|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.Semi Release.ActiveCfg = Release|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.Semi Release.Build.0 = Release|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.Test.ActiveCfg = Debug|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.Test.Build.0 = Debug|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.TL Debug GM_TOOL.ActiveCfg = Debug|Win32
+		{1BD5925A-6D7C-4646-AC13-58B5FE678D16}.TL Debug GM_TOOL.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,69 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Launcher", "MHAutoPatch.vcproj", "{49242084-4EE3-4310-92CB-865242348105}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = true
+		SolutionUniqueID = {14732163-7252-4C60-9EE5-19768CC14C4D}
+		SccProjectUniqueName1 = MHAutoPatch.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug_China = Debug_China
+		Debug_Japan = Debug_Japan
+		Debug_Server = Debug_Server
+		Debug_TL = Debug_TL
+		Release = Release
+		Release_China = Release_China
+		Release_HK = Release_HK
+		Release_Japan = Release_Japan
+		Release_ML2 = Release_ML2
+		Release_Server = Release_Server
+		Release_Server_China = Release_Server_China
+		Release_TL = Release_TL
+		Release_TW = Release_TW
+		ReleaseForTestServer = ReleaseForTestServer
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{49242084-4EE3-4310-92CB-865242348105}.Debug.ActiveCfg = Debug|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Debug.Build.0 = Debug|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Debug_China.ActiveCfg = Debug_China|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Debug_China.Build.0 = Debug_China|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Debug_Japan.ActiveCfg = Debug_Japan|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Debug_Japan.Build.0 = Debug_Japan|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Debug_Server.ActiveCfg = Debug_Server|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Debug_Server.Build.0 = Debug_Server|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Debug_TL.ActiveCfg = Debug_TL|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Debug_TL.Build.0 = Debug_TL|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release.ActiveCfg = Release|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release.Build.0 = Release|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_China.ActiveCfg = Release_China|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_China.Build.0 = Release_China|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_HK.ActiveCfg = Release_HK|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_HK.Build.0 = Release_HK|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_Japan.ActiveCfg = Release_Japan|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_Japan.Build.0 = Release_Japan|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_ML2.ActiveCfg = Release_ML2|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_ML2.Build.0 = Release_ML2|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_Server.ActiveCfg = Release_Server|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_Server.Build.0 = Release_Server|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_Server_China.ActiveCfg = Release_Server_China|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_Server_China.Build.0 = Release_Server_China|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_TL.ActiveCfg = Release_TL|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_TL.Build.0 = Release_TL|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_TW.ActiveCfg = Release_TW|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.Release_TW.Build.0 = Release_TW|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.ReleaseForTestServer.ActiveCfg = ReleaseForTestServer|Win32
+		{49242084-4EE3-4310-92CB-865242348105}.ReleaseForTestServer.Build.0 = ReleaseForTestServer|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

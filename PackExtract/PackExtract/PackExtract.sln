@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PackExtract", "PackExtract.vcproj", "{2D36CB54-3248-4C3E-860C-09588D171D00}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = true
+		SolutionUniqueID = {3F62172B-0D93-480A-9A75-F0A3D6A576CB}
+		SccProjectUniqueName1 = PackExtract.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2D36CB54-3248-4C3E-860C-09588D171D00}.Debug.ActiveCfg = Debug|Win32
+		{2D36CB54-3248-4C3E-860C-09588D171D00}.Debug.Build.0 = Debug|Win32
+		{2D36CB54-3248-4C3E-860C-09588D171D00}.Release.ActiveCfg = Release|Win32
+		{2D36CB54-3248-4C3E-860C-09588D171D00}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+LIBRARY     Renderer
+
+DESCRIPTION '4DyuchiGX 3D Engine Renderer 2001. yuchi'
+
+EXPORTS
+  DllGetClassObject PRIVATE
+  DllCanUnloadNow PRIVATE
+  DllRegisterServer PRIVATE
+  DllUnregisterServer PRIVATE
+  DllCreateInstance	PRIVATE
+

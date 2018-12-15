@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PackingTool", "PackingTool.vcproj", "{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = [Tool]PackingTool\\
+		SolutionUniqueID = {2E41718E-EB3F-4D4F-BAB0-62F321B6374C}
+		SccProjectUniqueName1 = PackingTool.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = [Tool]PackingTool\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		DebugForChina = DebugForChina
+		Release = Release
+		ReleaseForChina = ReleaseForChina
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.Debug.ActiveCfg = Debug|Win32
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.Debug.Build.0 = Debug|Win32
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.DebugForChina.ActiveCfg = DebugForChina|Win32
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.DebugForChina.Build.0 = DebugForChina|Win32
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.Release.ActiveCfg = Release|Win32
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.Release.Build.0 = Release|Win32
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.ReleaseForChina.ActiveCfg = ReleaseForChina|Win32
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.ReleaseForChina.Build.0 = ReleaseForChina|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

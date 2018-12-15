@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerTool", "ServerTool.vcproj", "{5E2FBD70-8DD1-489E-A9C9-FA23045F9108}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = [Monitoring]Tool\\
+		SolutionUniqueID = {5F89232C-AE69-435E-9893-24F5013BA13B}
+		SccProjectUniqueName1 = ServerTool.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = [Monitoring]Tool\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		DebugForChina = DebugForChina
+		DebugForJapan = DebugForJapan
+		Master = Master
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5E2FBD70-8DD1-489E-A9C9-FA23045F9108}.Debug.ActiveCfg = Debug|Win32
+		{5E2FBD70-8DD1-489E-A9C9-FA23045F9108}.Debug.Build.0 = Debug|Win32
+		{5E2FBD70-8DD1-489E-A9C9-FA23045F9108}.DebugForChina.ActiveCfg = DebugForChina|Win32
+		{5E2FBD70-8DD1-489E-A9C9-FA23045F9108}.DebugForChina.Build.0 = DebugForChina|Win32
+		{5E2FBD70-8DD1-489E-A9C9-FA23045F9108}.DebugForJapan.ActiveCfg = DebugForJapan|Win32
+		{5E2FBD70-8DD1-489E-A9C9-FA23045F9108}.DebugForJapan.Build.0 = DebugForJapan|Win32
+		{5E2FBD70-8DD1-489E-A9C9-FA23045F9108}.Master.ActiveCfg = Master|Win32
+		{5E2FBD70-8DD1-489E-A9C9-FA23045F9108}.Master.Build.0 = Master|Win32
+		{5E2FBD70-8DD1-489E-A9C9-FA23045F9108}.Release.ActiveCfg = Release|Win32
+		{5E2FBD70-8DD1-489E-A9C9-FA23045F9108}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

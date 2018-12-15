@@ -1,0 +1,9 @@
+SCC = This is a source code control file
+
+[HSEL.sln]
+SCC_Aux_Path = "P4SCC#192.168.1.115:1666##BluePearl##BluePearl_Sub"
+SCC_Project_Name = Perforce Project
+
+[HSEL.vcproj]
+SCC_Aux_Path = "P4SCC#192.168.1.115:1666##BluePearl##BluePearl_Sub"
+SCC_Project_Name = Perforce Project

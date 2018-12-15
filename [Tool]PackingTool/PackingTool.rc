@@ -1,0 +1,277 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\PackingTool.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\PackingTool.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PackingTool 정보"
+FONT 9, "굴림"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "PackingTool 버전 0.1",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Last Updated 2003. 11. 14     成大",IDC_STATIC,40,25,
+                    119,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_PACKINGTOOL_DIALOG DIALOGEX 0, 0, 515, 407
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | 
+    WS_MAXIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Packing Tool (Ver 20090518)"
+FONT 10, "굴림체", 0, 0, 0x1
+BEGIN
+    LTEXT           "Current File : ",IDC_STATIC,7,7,61,8
+    LTEXT           "static",IDC_STATIC_CURFILE,71,7,437,8
+    GROUPBOX        "Information",IDC_STATIC,7,25,120,375
+    LTEXT           "FileNum : ",IDC_STATIC,13,38,33,8
+    RTEXT           "static",IDC_STATIC_FILENUM,51,38,44,8
+    LISTBOX         IDC_LIST_FILE,13,52,106,315,LBS_NOINTEGRALHEIGHT | 
+                    LBS_WANTKEYBOARDINPUT | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "New",IDC_BUTTON_NEW,13,377,36,15,NOT WS_TABSTOP
+    PUSHBUTTON      "DelAll",IDC_BUTTON_DELALL,83,377,36,15,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT,134,28,374,321,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL | 
+                    NOT WS_TABSTOP
+    GROUPBOX        "Txt",IDC_STATIC,135,362,95,39
+    PUSHBUTTON      "OpenTxt",IDC_BUTTON_OPEN,139,377,36,15,NOT WS_TABSTOP
+    PUSHBUTTON      "SaveToTxt",IDC_BUTTON_SAVE_TO_TXT,180,377,42,15,NOT 
+                    WS_TABSTOP
+    GROUPBOX        "Binary",IDC_STATIC,239,362,206,39
+    PUSHBUTTON      "OpenBin",IDC_BUTTON_OPEN_BIN,246,377,43,15,NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Save",IDC_BUTTON_SAVE_BIN,295,377,43,15
+    PUSHBUTTON      "SaveAll",IDC_BUTTON_SAVE_TO_BIN,344,377,43,15,NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "SaveAs",IDC_BUTTON_SAVE_AS_BIN,393,377,43,15
+    PUSHBUTTON      "SaveDSOF",IDC_BUTTON_SAVEDSOF,454,354,47,13,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "Exit",IDC_BUTTON1,454,376,46,16
+END
+
+IDD_DIALOG_EXT DIALOG  0, 0, 175, 74
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "확장자 Dialog"
+FONT 10, "굴림체"
+BEGIN
+    EDITTEXT        IDC_EDIT_EXT,69,28,82,12,ES_AUTOHSCROLL
+    CTEXT           "저장할 파일의 확장자를 적어주세요!!",IDC_STATIC,7,7,161,
+                    8
+    LTEXT           "확장자 : *.",IDC_STATIC,23,32,44,8
+    PUSHBUTTON      "저장",IDOK,94,55,36,12
+    PUSHBUTTON      "취소",IDCANCEL,132,55,36,12
+END
+
+IDD_DIALOG_NEW DIALOG  0, 0, 275, 66
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "찾기"
+FONT 9, "굴림체"
+BEGIN
+    DEFPUSHBUTTON   "다음찾기",ID_SEARCH,212,7,56,16
+    PUSHBUTTON      "취소",IDCANCEL,212,28,56,16
+    CTEXT           "찾을 내용 :",IDC_STATIC,7,7,51,8
+    EDITTEXT        IDC_EDIT_FILE,61,7,135,12,ES_AUTOHSCROLL | ES_WANTRETURN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204B0"
+        BEGIN
+            VALUE "FileDescription", "PackingTool MFC 응용 프로그램"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "PackingTool"
+            VALUE "LegalCopyright", "Copyright (C) 2003"
+            VALUE "OriginalFilename", "PackingTool.EXE"
+            VALUE "ProductName", "PackingTool 응용 프로그램"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_PACKINGTOOL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 508
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 400
+    END
+
+    IDD_DIALOG_EXT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+
+    IDD_DIALOG_NEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 268
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS 
+BEGIN
+    "N",            ID_SEARCH,              VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "PackingTool 정보(&A)..."
+END
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\PackingTool.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

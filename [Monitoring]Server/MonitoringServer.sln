@@ -1,0 +1,67 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MonitoringServer", "MonitoringServer.vcproj", "{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = [Monitoring]Server\\
+		SolutionUniqueID = {F929DFF6-AB82-4854-9A1C-11D527912BE3}
+		SccProjectUniqueName1 = MonitoringServer.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = [Monitoring]Server\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		DebugForChina = DebugForChina
+		DebugForHK = DebugForHK
+		DebugForJapan = DebugForJapan
+		DebugForRMTool = DebugForRMTool
+		DebugForRMToolForChina = DebugForRMToolForChina
+		DebugForRMToolForHK = DebugForRMToolForHK
+		DebugForRMToolForJapan = DebugForRMToolForJapan
+		DebugForRMToolForTL = DebugForRMToolForTL
+		DebugForRMToolForTW = DebugForRMToolForTW
+		DebugForTL = DebugForTL
+		DebugForTW = DebugForTW
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.Debug.ActiveCfg = Debug|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.Debug.Build.0 = Debug|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForChina.ActiveCfg = DebugForChina|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForChina.Build.0 = DebugForChina|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForHK.ActiveCfg = DebugForHK|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForHK.Build.0 = DebugForHK|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForJapan.ActiveCfg = DebugForJapan|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForJapan.Build.0 = DebugForJapan|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForRMTool.ActiveCfg = DebugForRMTool|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForRMTool.Build.0 = DebugForRMTool|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForRMToolForChina.ActiveCfg = DebugForRMToolForChina|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForRMToolForChina.Build.0 = DebugForRMToolForChina|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForRMToolForHK.ActiveCfg = DebugForRMToolForHK|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForRMToolForHK.Build.0 = DebugForRMToolForHK|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForRMToolForJapan.ActiveCfg = DebugForRMToolForJapan|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForRMToolForJapan.Build.0 = DebugForRMToolForJapan|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForRMToolForTL.ActiveCfg = DebugForRMToolForTL|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForRMToolForTL.Build.0 = DebugForRMToolForTL|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForRMToolForTW.ActiveCfg = DebugForRMToolForTW|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForRMToolForTW.Build.0 = DebugForRMToolForTW|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForTL.ActiveCfg = DebugForTL|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForTL.Build.0 = DebugForTL|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForTW.ActiveCfg = DebugForTW|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.DebugForTW.Build.0 = DebugForTW|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.Release.ActiveCfg = Release|Win32
+		{A917E8B8-FB5C-478E-90CC-D27B6956A2F4}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

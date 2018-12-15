@@ -1,0 +1,281 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\LunaGameDataExtracter.rc2""  // Microsoft Visual C++에서 편집되지 않은 리소스\r\n"
+    "#include ""afxres.rc""         // 표준 구성 요소\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\LunaGameDataExtracter.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "LunaGameDataExtracter 정보"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "LunaGameDataExtracter Version 1.0",IDC_STATIC,40,10,119,
+                    8,SS_NOPREFIX
+    LTEXT           "Copyright (C) EYAsoft",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,16,WS_GROUP
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+END
+
+IDD_LUNAGAMEDATAEXTRACTER_DIALOG DIALOGEX 0, 0, 459, 285
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "LunaGameDataExtracter"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PICTURE,"Static",SS_BLACKFRAME,7,7,445,211
+    PUSHBUTTON      "Extract",IDC_BUTTON_EXTRACT,402,264,50,14
+    CONTROL         "",IDC_PROGRESS_CTRL,"msctls_progress32",WS_BORDER | 0x1,
+                    7,246,445,14
+    LTEXT           "...",IDC_STATIC_PROGRESS_STATUS,7,228,153,16,
+                    SS_CENTERIMAGE,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Script ReLoad",IDC_BUTTON_SCRIPT_RELOAD,319,264,50,14
+END
+
+IDD_DIALOG_EXTRACT_OPT DIALOGEX 0, 0, 287, 311
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Extract Option"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,230,290,50,14
+    CONTROL         "2D item icon image",IDC_CHECK_2DITEM_ICON_IMAGE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,19,25,75,10
+    GROUPBOX        "Item Icon Image",IDC_STATIC,7,7,273,45
+    CONTROL         "3D monster image",IDC_CHECK_3DMONSTER_IMAGE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,77,73,10
+    CONTROL         "ALL Extract",IDC_CHECK_2DITEM_ICON_IMAGE_ALL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,104,25,53,10
+    EDITTEXT        IDC_EDIT_2DITEM_ICON_IMAGE_RANGE_MIN,174,24,40,14,
+                    ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_2DITEM_ICON_IMAGE_RANGE_MAX,230,24,40,14,
+                    ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Item Index Range",IDC_STATIC,168,13,107,32
+    LTEXT           "~",IDC_STATIC,219,27,8,8
+    GROUPBOX        "Monster Image",IDC_STATIC,7,58,273,45
+    CONTROL         "ALL Extract",IDC_CHECK_3DMONSTER_IMAGE_ALL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,104,77,53,10
+    EDITTEXT        IDC_EDIT_3DMONSTER_IMAGE_RANGE_MIN,174,76,40,14,
+                    ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_3DMONSTER_IMAGE_RANGE_MAX,230,76,40,14,
+                    ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Monster Kind Range",IDC_STATIC,168,65,107,32
+    LTEXT           "~",IDC_STATIC,219,79,8,8
+    CONTROL         "2D active skill image",IDC_CHECK_2DACTIVESKILL_IMAGE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,129,79,10
+    GROUPBOX        "Active Skill Icon Image",IDC_STATIC,7,109,273,45
+    CONTROL         "ALL Extract",IDC_CHECK_2DACTIVESKILL_IMAGE_ALL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,104,129,53,10
+    EDITTEXT        IDC_EDIT_2DACTIVESKILL_IMAGE_RANGE_MIN,174,128,40,14,
+                    ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_2DACTIVESKILL_IMAGE_RANGE_MAX,230,128,40,14,
+                    ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Active Skill Index Range",IDC_STATIC,168,117,107,32
+    LTEXT           "~",IDC_STATIC,220,130,8,8
+    CONTROL         "2D buff skill image",
+                    IDC_CHECK_IDC_EDIT_2DBUFFSKILL_IMAGE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,180,73,10
+    GROUPBOX        "Buff Skill Icon Image",IDC_STATIC,7,160,273,45
+    CONTROL         "ALL Extract",IDC_CHECK_2DBUFFSKILL_IMAGE_ALL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,104,180,53,10
+    EDITTEXT        IDC_EDIT_2DBUFFSKILL_IMAGE_RANGE_MIN,174,179,40,14,
+                    ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_2DBUFFSKILL_IMAGE_RANGE_MAX,230,179,40,14,
+                    ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Buff Skill Index Range",IDC_STATIC,168,168,107,32
+    LTEXT           "~",IDC_STATIC,220,180,8,8
+    GROUPBOX        "Data Extract",IDC_STATIC,7,212,273,72
+    CONTROL         "Item Info",IDC_CHECK_ITEM_DATA,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,104,242,46,10
+    GROUPBOX        "Extract File Type",IDC_STATIC,12,225,74,54
+    GROUPBOX        "Data",IDC_STATIC,90,225,185,54
+    CONTROL         "Text",IDC_CHECK_EXTRACT_FILE_TEXT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,22,241,31,10
+    CONTROL         "Excel",IDC_CHECK_EXTRACT_FILE_EXCEL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,22,259,33,10
+    CONTROL         "Monster Info",IDC_CHECK_MONSTER_DATA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,104,259,57,10
+    CONTROL         "Skill Info",IDC_CHECK_SKILL_DATA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,187,242,43,10
+    CONTROL         "Quest Info",IDC_CHECK_QUEST_DATA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,187,259,51,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "CompanyName", "TODO: <회사 이름>"
+            VALUE "FileDescription", "TODO: <파일 설명>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "LunaGameDataExtracter.exe"
+            VALUE "LegalCopyright", "TODO: (c) <회사 이름>.  All rights reserved."
+            VALUE "OriginalFilename", "LunaGameDataExtracter.exe"
+            VALUE "ProductName", "TODO: <제품 이름>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "변환", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 11
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_LUNAGAMEDATAEXTRACTER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 452
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 278
+    END
+
+    IDD_DIALOG_EXTRACT_OPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 304
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "LunaGameDataExtracter 정보(&A)..."
+END
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\LunaGameDataExtracter.rc2"  // Microsoft Visual C++에서 편집되지 않은 리소스
+#include "afxres.rc"         // 표준 구성 요소
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

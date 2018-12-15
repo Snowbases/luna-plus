@@ -1,0 +1,262 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MHAutoPatch.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_LUNAICON            ICON                    "res\\luna.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PB_JP               BITMAP                  "res\\bitmap1.bmp"
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 영어(미국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\MHAutoPatch.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+#if defined(APSTUDIO_INVOKED) || defined(_FOR_CLIENT_)
+#if defined(APSTUDIO_INVOKED)
+IDB_PB$(_FOR_CLIENT_)   BITMAP                  "res\\patch-06.bmp"
+#else
+IDB_PB                  BITMAP                  "res\\patch-06.bmp"
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+#if defined(APSTUDIO_INVOKED) || defined(_FOR_CLIENT_)
+#if defined(APSTUDIO_INVOKED)
+IDD_MHAUTOPATCH_DIALOG$(_FOR_CLIENT_) DIALOGEX 0, 0, 358, 276
+#else
+IDD_MHAUTOPATCH_DIALOG DIALOGEX 0, 0, 358, 276
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "굴림", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_SCREENSIZE,73,132,62,13,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_OEMCONVERT | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_INTERFACE,81,151,62,13,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_OEMCONVERT | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_FOR_SERVER_)
+#if defined(APSTUDIO_INVOKED)
+IDD_MHSERVERPATCH_DIALOG$(_FOR_SERVER_) DIALOGEX 0, 0, 131, 25
+#else
+IDD_MHSERVERPATCH_DIALOG DIALOGEX 0, 0, 131, 25
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,85,3,40,10,BS_FLAT | NOT WS_TABSTOP
+    LTEXT           "Checking Version...",IDC_TEXT_SERVER,4,4,64,8,NOT 
+                    WS_GROUP
+END
+#endif
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "MHAutoPatch MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "MHAutoPatch"
+            VALUE "LegalCopyright", "Copyright (C) 2004"
+            VALUE "OriginalFilename", "MHAutoPatch.EXE"
+            VALUE "ProductName", "MHAutoPatch Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    "IDD_MHAUTOPATCH_DIALOG$(_FOR_CLIENT_)", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 275
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+#if defined(APSTUDIO_INVOKED) || defined(_FOR_CLIENT_)
+#if defined(APSTUDIO_INVOKED)
+IDD_MHAUTOPATCH_DIALOG$(_FOR_CLIENT_) DLGINIT
+#else
+IDD_MHAUTOPATCH_DIALOG DLGINIT
+#endif
+BEGIN
+    IDC_SCREENSIZE, 0x403, 10, 0
+0x3038, 0x2030, 0x2058, 0x3036, 0x0030, 
+    IDC_SCREENSIZE, 0x403, 11, 0
+0x3031, 0x3432, 0x5820, 0x3720, 0x3836, "\000" 
+    IDC_SCREENSIZE, 0x403, 12, 0
+0x3231, 0x3038, 0x5820, 0x3120, 0x3230, 0x0034, 
+    IDC_INTERFACE, 0x403, 15, 0
+0x6d69, 0x6761, 0x5f65, 0x6170, 0x6874, 0x622e, 0x6e69, "\000" 
+    IDC_INTERFACE, 0x403, 20, 0
+0x6d69, 0x6761, 0x5f65, 0x6170, 0x6874, 0x675f, 0x6572, 0x2e79, 0x6962, 
+0x006e, 
+    IDC_INTERFACE, 0x403, 15, 0
+0x6d69, 0x6761, 0x5f65, 0x6970, 0x6b6e, 0x622e, 0x6e69, "\000" 
+    0
+END
+#endif
+
+#endif    // 영어(미국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\MHAutoPatch.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoPatchToolWin32", "AutoPatchToolWin32.vcproj", "{9B794B22-19C9-46DA-A92E-E3B88EA53501}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = true
+		SolutionUniqueID = {AD121A68-F537-458A-9702-6BE0EFA5BE71}
+		SccProjectUniqueName1 = AutoPatchToolWin32.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9B794B22-19C9-46DA-A92E-E3B88EA53501}.Debug.ActiveCfg = Debug|Win32
+		{9B794B22-19C9-46DA-A92E-E3B88EA53501}.Debug.Build.0 = Debug|Win32
+		{9B794B22-19C9-46DA-A92E-E3B88EA53501}.Release.ActiveCfg = Release|Win32
+		{9B794B22-19C9-46DA-A92E-E3B88EA53501}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
